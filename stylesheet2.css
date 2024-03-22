@@ -1,0 +1,541 @@
+:root {
+  --primary-color: #f9f9f9;
+  --secondary-color: #5c5d61;
+  --tertiary-color: black;
+  --quartiary-color: #e9e6da;
+  --quintary-color: white;
+  --sectary-color: #e6e6e6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  height: 100%;
+}
+
+h1 {
+  font-family: "Libre Bodoni", serif;
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 50px;
+  margin: 10px 5px 10px 5px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Libre Bodoni", serif;
+  font-weight: 100;
+  font-size: 35px;
+  margin: 5px 5px 15px 5px;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Libre Bodoni", serif;
+  font-weight: 600;
+  font-size: 35px;
+  margin: 5px 5px 15px 5px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+h4 {
+  font-family: "Libre Bodoni", serif;
+  font-weight: 100;
+  font-size: 35px;
+  margin: 5px 5px 15px 5px;
+  text-align: center;
+}
+
+a {
+  font-family: "Quicksand", sans-serif;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  color: var(--secondary-color);
+  margin: 5px 0 20px 0;
+  padding: 15px;
+}
+
+button {
+  /*text-transform: uppercase;*/
+  font-family: "Quicksand", sans-serif;
+  background-color: var(--quintary-color);
+  border: 1px solid var(--secondary-color);
+  padding: 6px;
+  margin: 0px 20px 10px 0px;
+  font-size: 20px;
+  vertical-align: middle;
+  border-radius: 12px;
+}
+
+.padding-form{
+  margin: 15px;
+}
+
+button.navbar-toggler {
+  margin: 0px 0px 0px 20px;
+}
+
+li.nav-item {
+  min-height: 76px;
+  max-height: 76px;
+  font-size: 20px;
+  padding-top: 14px;
+}
+
+#loggedIn-bold {
+  font-weight: bold;
+}
+
+header {
+  font-size: 40px;
+  color: var(--secondary-color);
+  border: 0px solid var(--secondary-color);
+  border-width: 0px 0px 0.2px 0px;
+  position: /*fixed*/ sticky;
+  width: 100%;
+}
+
+footer {
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  border: 0px solid var(--secondary-color);
+  border-width: 0.2px 0px 0px 0px;
+  margin: 1px;
+  padding: 15px;
+}
+
+form {
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+  background-color: var(--primary-color);
+  color: black;
+}
+
+legend {
+  font-family: "Libre Bodoni", serif;
+  font-size: 35px;
+  font-weight: 800;
+  color: var(--secondary-color);
+}
+
+input {
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+  display: block;
+  margin: 5px 0px 20px 0px;
+  width: 300px;
+}
+
+.checkbox {
+  display: inline;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+select {
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+  color: var(--secondary-color);
+  margin: 5px 0px 20px 0px;
+  display: block;
+}
+
+textarea {
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+  color: var(--secondary-color);
+  display: block;
+  margin: 5px 0px 20px 0px;
+  width: 300px;
+}
+
+
+#navbar-image {
+  height: 50px;
+}
+
+#title {
+  margin: 0px;
+}
+
+#home-heading {
+  color: var(--secondary-color);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#home-heading-description {
+  color: var(--secondary-color);
+  text-align: center;
+  font-size: 60px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+#home-image {
+  background-image: url("/DOCUMENT_ROOT/pictures/wellness/spa.jpg");
+  background-color: rgba(190, 190, 190, 0.4);
+  background-blend-mode: lighten;
+  background-size: cover;
+  background-position: center;
+  padding: 80px;
+}
+
+#makewhite {
+  filter: grayscale(1) brightness(10);
+  height: 110px;
+}
+
+.first-row {
+  background-color: var(--sectary-color);
+  padding: 0;
+}
+
+.column-bigscreen {
+  display: none;
+}
+
+.second-row {
+  margin: 50px 100px;
+  background-color: var(--sectary-color);
+  padding-left: 0;
+  padding-right: 50px;
+}
+
+.text-feld {
+  padding: 20px;
+}
+
+.home-side-pictures {
+  width: 100%;
+}
+
+#hilfe {
+  background-image: url("/DOCUMENT_ROOT/pictures/wellness/outdoor.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  height: 200px;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(190, 190, 190, 0.4);
+  background-blend-mode: lighten;
+  background-size: cover;
+  background-position: center;
+  padding: 80px;
+  color: var(--quintary-color);
+}
+
+#FAQ {
+  font-weight: 700;
+  font-size: 60px;
+  padding-top: 10px;
+}
+
+#hilfe-main {
+  background-color: var(--primary-color);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#impressum-main {
+  background-color: var(--primary-color);
+  padding: 20px;
+}
+
+.geschäftsführung {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#FAQ-div {
+  padding: 40px 30px;
+  background-color: var(--quartiary-color);
+}
+
+.button-text {
+  font-family: "Quicksand", sans-serif;
+}
+
+.footer-link {
+  font-family: "Quicksand", sans-serif;
+  margin: 0px 20px 0px 0px;
+}
+
+.listen {
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+  text-align: left;
+}
+
+.thumbnail{
+    margin: auto;
+    padding: 0;
+    display: block;
+    width: 100%;
+}
+
+.newsBeitrag {
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.newsHeadline {
+  margin-top: 40px;
+  padding: 0;
+}
+
+span {
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.navigation-link {
+  font-size: 20px;
+  min-height: 76px;
+}
+
+#footer-copyright {
+  font-size: 18px;
+}
+
+label {
+  margin: 20px 0px 20px 0px;
+  font-size: 17px;
+}
+
+input {
+  font-size: 17px;
+}
+
+textarea {
+  font-size: 17px;
+}
+
+select {
+  font-size: 17px;
+}
+
+@media (min-width: 600px) {
+
+  .container-fluid {
+    max-width: 1200px;
+  }
+
+  h1 {
+    font-weight: 200;
+    font-size: 80px;
+    margin: 5px 5px 20px 5px;
+  }
+
+  h2 {
+    font-weight: 500;
+    font-size: 50px;
+    margin: 5px 5px 20px 5px;
+  }
+
+  p {
+    padding: 0 40px;
+    font-size: 20px;
+  }
+
+  footer {
+    padding: 20px;
+  }
+
+  legend {
+    font-size: 40px;
+  }
+
+  label {
+    margin: 20px 0px 20px 0px;
+    font-size: 20px;
+  }
+
+  input {
+    margin: 0px 0px 10px 0px;
+    width: 600px;
+    font-size: 20px;
+  }
+
+  .checkbox {
+    transform: scale(2, 2);
+    padding: 20px;
+  }
+
+  select {
+    margin: 5px 0px 30px 0px;
+  }
+
+  textarea {
+    width: 600px;
+    font-size: 20px;
+  }
+
+  select {
+    font-size: 20px;
+  }
+
+  #home-image {
+    padding: 120px;
+  }
+
+  #impressum-main {
+    padding: 0 30px;
+    font-weight: 300;
+  }
+
+  #hilfe-main {
+    background-color: var(--primary-color);
+    padding: 40px;
+  }
+
+  #hilfe {
+    height: 400px;
+  }
+
+  #navbar-image {
+    display: inline;
+    height: 50px;
+  }
+
+  .first-row {
+    margin: 50px 40px;
+    background-color: var(--sectary-color);
+    padding-left: 0;
+  }
+
+  .column-phone-display {
+    height: 100%;
+    width: auto;
+  }
+
+  .column-big {
+    display: inline;
+  }
+
+  #makewhite {
+    height: 180px;
+  }
+
+  .navigation-link {
+    font-size: 20px;
+    min-height: 76px;
+  }
+
+}
+
+@media (min-width: 920px) {
+  h1 {
+    font-weight: 200;
+    font-size: 125px;
+    margin: 5px 20px 20px 5px;
+  }
+
+  h2 {
+    font-weight: 500;
+    font-size: 60px;
+    padding: 60px 0 0 0;
+    margin: 5px 20px 20px 5px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  .navigation-link {
+    font-size: 20px;
+    min-height: 76px;
+    padding: 8px 0px;
+  }
+
+  #homescreen-logo {
+    height: 150px;
+  }
+
+  #impressum-main {
+    padding: 0 50px;
+  }
+
+  .column-phone-display {
+    display: none;
+  }
+
+  .column-bigscreen {
+    display: inline;
+  }
+
+  .checkbox {
+    display: block;
+  }
+
+  #navbar-image {
+    height: 50px;
+    padding: 0 30px 0 0;
+  }
+
+  .thumbnail{
+    margin: auto;
+    padding: 0;
+    display: block;
+    width: 900px;
+}
+  .newsBeitrag{
+    margin: auto;
+    display: block;
+    width: 900px; 
+  }
+
+  #h1-impressum {
+    font-size: 90px;
+    padding-top: 60px;
+    font-weight: bold;
+  }
+
+  #makewhite {
+    height: 215px;
+  }
+
+  #home-image {
+    padding: 170px;
+  }
+}
+
+@media (min-width: 992px) {
+
+  li.nav-item {
+    min-height: 63px;
+    max-height: 90px;
+  }
+
+  .navigation-link {
+    padding-top: 17px;
+  }
+  
+}
